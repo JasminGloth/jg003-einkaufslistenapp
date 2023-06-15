@@ -18,5 +18,10 @@
     "title": "Lyoner",
     "amount": 1,
     "department": "Wurst"
-  }
+  },
+{
+    "title": "Bacon",
+    "amount": 3,
+    "department": "Wurst"
+}
 ]
