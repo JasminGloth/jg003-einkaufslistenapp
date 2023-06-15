@@ -8,8 +8,8 @@ export const PageList = () => {
 	<ul>
 		${items.map(item=>{
 			
-			return `<li>nnn</li>`; 
-		})}
+			return `<li>${item.title}</li>`; 
+		}).join('')}
 	</ul>
 </div>
 `; 
