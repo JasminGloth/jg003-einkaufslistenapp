@@ -1,16 +1,17 @@
-import items from '../data/items.json';
+import items from "../data/items.json";
 
 export const PageList = () => {
-	return /*html*/`
+  return /*html*/ `
 <div class="page pageList">
 	<h2>Einkaufsliste</h2>
-	<p>Es gibt ${items.length} Items</p>
+	<p>Es gibt ${items.length} Waren</p>
 	<ul>
-		${items.map(item=>{
-			
-			return `<li>${item.title}</li>`; 
-		}).join('')}
+		${items
+      .map((item) => {
+        return `<li> ${item.amount}x ${item.title}</li>`;
+      })
+      .join("")}
 	</ul>
 </div>
-`; 
-}
+`;
+};
