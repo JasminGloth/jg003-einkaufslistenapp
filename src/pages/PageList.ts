@@ -8,7 +8,7 @@ export const PageList = () => {
 	<h2>Einkaufsliste</h2>
 	<p>Es gibt ${items.length} Waren in ${departments.length} Abteilungen</p>
 	${departments.map(department => {
-		return Department(department);
+		return Department(items, department);
 	})
 	.join('')}
 </div>
