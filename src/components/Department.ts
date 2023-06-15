@@ -11,7 +11,7 @@ export const Department = (items:IItem[], department:IDepartment) => {
     return /*html*/ `
     <h3>${department.title}</h3>
     <ul>
-		${items
+		${items.filter(item => item.department === department.title)
       .map((item) => {
         return `<li> ${item.amount}x ${item.title}</li>`;
       })
