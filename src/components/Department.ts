@@ -1,6 +1,10 @@
-export const Department = () => {
+interface IDepartment {
+    title:string;
+}
+
+export const Department = (department:IDepartment) => {
     return /*html*/ `
-    <h3>Abteilungen</h3>
+    <h3>${department.title}</h3>
     
     `;
 }
