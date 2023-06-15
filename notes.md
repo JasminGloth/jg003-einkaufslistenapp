@@ -11,3 +11,14 @@ x items darstellen auf der Liste-Seite
 - Department component erstellen
 - auf Vercel publizieren
 - auf Handy anschauen
+
+
+
+
+<ul>
+		${items
+      .map((item) => {
+        return `<li> ${item.amount}x ${item.title}</li>`;
+      })
+      .join("")}
+	</ul>
