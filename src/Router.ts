@@ -1,17 +1,17 @@
 import * as tools from './tools';
-import { PageWelcome } from './pages/PageWelcome';
+import { PageList } from './pages/PageList';
 import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
 import { Page404 } from './pages/Page404';
 
-const pageNames = ['Welcome', 'Info', 'About'];
+const pageNames = ['List', 'Info', 'About'];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
 export const getCurrentPage = () => {
 	switch (currentPageIdCode) {
-		case 'welcome':
-			return PageWelcome();
+		case 'list':
+			return PageList();
 		case 'info':
 			return PageInfo();
 		case 'about':
