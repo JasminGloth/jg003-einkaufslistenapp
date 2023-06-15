@@ -2,26 +2,31 @@
   {
     "title": "Butter",
     "amount": 1,
-    "department": "Molkerei"
+    "department": "Molkerei",
+    "price": 1.29
   },
   {
-    "title": "Brot",
+    "title": "Toast",
     "amount": 1,
-    "department": "Backwaren"
+    "department": "Backwaren",
+    "price": 1.19
   },
   {
     "title": "Käse",
     "amount": 1,
-    "department": "Molkerei"
+    "department": "Molkerei",
+    "price": 1.59
   },
   {
     "title": "Lyoner",
     "amount": 1,
-    "department": "Wurst"
+    "department": "Wurst",
+    "price": 1.19
   },
-{
+  {
     "title": "Bacon",
     "amount": 3,
-    "department": "Wurst"
-}
+    "department": "Wurst",
+    "price": 1.19
+  }
 ]
