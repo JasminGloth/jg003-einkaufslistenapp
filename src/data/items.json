@@ -1,18 +1,22 @@
 [
   {
     "title": "Butter",
-    "amount": 1
+    "amount": 1,
+    "department": "Molkerei"
   },
   {
     "title": "Brot",
-    "amount": 1
+    "amount": 1,
+    "department": "Backwaren"
   },
   {
     "title": "Käse",
-    "amount": 1
+    "amount": 1,
+    "department": "Molkerei"
   },
   {
     "title": "Lyoner",
-    "amount": 1
+    "amount": 1,
+    "department": "Wurst"
   }
 ]

@@ -8,5 +8,6 @@ x json Datei erstellen "items.json" in source (src/data)
 x items.json mit Items füllen Title , amount
 x items darstellen auf der Liste-Seite
 - map in eine Zeile ändern
+- Department component erstellen
 - auf Vercel publizieren
 - auf Handy anschauen
