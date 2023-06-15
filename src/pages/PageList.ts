@@ -5,12 +5,12 @@ import { Department } from "../components/Department";
 export const PageList = () => {
   return /*html*/ `
 <div class="page pageList">
-	<h2>Einkaufsliste</h2>
-	<p>Es gibt ${items.length} Waren in ${departments.length} Abteilungen</p>
-	${departments.map(department => {
-		return Department(items, department);
-	})
-	.join('')}
+		<p>Es gibt ${items.length} Waren in ${departments.length} Abteilungen</p>
+	${departments
+    .map((department) => {
+      return Department(items, department);
+    })
+    .join("")}
 </div>
 `;
 };
