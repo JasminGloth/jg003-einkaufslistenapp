@@ -57,7 +57,11 @@ Aldi
   1 Bacon
 
 
-
+	${departments
+    .map((department) => {
+      return Department(items, department);
+    })
+    .join("")}
 
 
 

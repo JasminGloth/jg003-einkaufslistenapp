@@ -1,17 +1,17 @@
 import * as tools from './tools';
-import { PageList } from './pages/PageList';
+import { PagePreisvergleich } from './pages/PagePreisvergleich';
 import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
 import { Page404 } from './pages/Page404';
 
-const pageNames = ['List', 'Info', 'About'];
+const pageNames = ['Preisvergleich', 'Info', 'About'];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
 export const getCurrentPage = () => {
 	switch (currentPageIdCode) {
-		case 'list':
-			return PageList();
+		case 'preisvergleich':
+			return PagePreisvergleich();
 		case 'info':
 			return PageInfo();
 		case 'about':
