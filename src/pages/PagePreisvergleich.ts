@@ -1,5 +1,9 @@
 import {products} from "../model";
 import {departments} from "../model";
+import { getDepartmentProducts } from "../model";
+
+const departmentProducts=getDepartmentProducts();
+console.log (departmentProducts);
 
 export const PagePreisvergleich = () => {
   return /*html*/ `
