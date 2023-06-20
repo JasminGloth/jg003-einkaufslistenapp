@@ -1,5 +1,5 @@
-import products from "../data/products.json";
-import departments from "../data/departments.json";
+import {products} from "../model";
+import {departments} from "../model";
 
 export const PagePreisvergleich = () => {
   return /*html*/ `
