@@ -1,81 +1,86 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #333;
-	color: #87cefa;
-	font-family: sans-serif;
-	padding: 2rem;
+  background-color: #333;
+  color: #87cefa;
+  font-family: sans-serif;
+  padding: 2rem;
 
-	h1 {
-		color: rgb(204, 168, 101);
-		margin-bottom: .5rem;
-	}
+  h1 {
+    color: rgb(204, 168, 101);
+    margin-bottom: 0.5rem;
+  }
 
-	nav {
-		margin-bottom: 2rem;
-		background-color: #444;
-		padding: .5rem;
+  nav {
+    margin-bottom: 2rem;
+    background-color: #444;
+    padding: 0.5rem;
 
-		ul {
-			display: flex;
-			list-style-type: none;
-			gap: 1rem;
+    ul {
+      display: flex;
+      list-style-type: none;
+      gap: 1rem;
 
-			li {
-				a {
-					color: #aaa;
-					text-decoration: none;
+      li {
+        a {
+          color: #aaa;
+          text-decoration: none;
 
-					&.active {
-						color: rgb(211, 145, 24);
-					}
-				}
-			}
-		}
-	}
+          &.active {
+            color: rgb(211, 145, 24);
+          }
+        }
+      }
+    }
+  }
 
-	main {
-		font-size: 1.2rem;
+  main {
+    font-size: 1.2rem;
 
-		.page404 {
-			.message404 {
-				width: 26rem;
-				padding: 1rem;
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				color: #444;
-				margin-top: -2rem;
+    .page404 {
+      .message404 {
+        width: 26rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #444;
+        margin-top: -2rem;
 
-				.numberArea {
-					font-size: 15rem;
-					margin-bottom: -1rem;
-				}
+        .numberArea {
+          font-size: 15rem;
+          margin-bottom: -1rem;
+        }
 
-				.message {
-					font-size: 2rem;
-				}
-			}
-		}
-		.pagePreisvergleich {
-			h2{
-				margin-bottom: 1rem;
-			}
-			table {
-				tr {
-					td {
-						background-color: gray;
-						padding: .5rem;
-						&.price {
-							text-align: right;
-						}
-					}
-				}
-			}
-		}
-	}
+        .message {
+          font-size: 2rem;
+        }
+      }
+    }
+    .pagePreisvergleich {
+      h2 {
+        margin-bottom: 1rem;
+      }
+      table {
+		border-spacing: .5rem;
+        tr {
+			
+          td {
+            background-color: gray;
+            padding: 0.5rem;
+            &.department {
+              background-color: azure;
+            }
+            &.price {
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
 }

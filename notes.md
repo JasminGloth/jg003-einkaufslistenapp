@@ -64,6 +64,11 @@ Aldi
     .join("")}
 
 
+        <td class="price">${product.priceKaufland}</td>
+        <td class="price">${product.priceLidl}</td>
+        <td class="price">${product.priceAldi}</td>
+
+
 
 
 <ul>
