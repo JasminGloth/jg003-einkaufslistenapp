@@ -61,16 +61,17 @@ body {
 				}
 			}
 		}
-		.pageList {
+		.pagePreisvergleich {
 			h2{
 				margin-bottom: 1rem;
 			}
-			h3{
-				margin-top: 2rem;
-			}
-			ul{
-				margin-left: 2rem;
-				margin-top: 1rem;
+			table {
+				tr {
+					td {
+						background-color: gray;
+						padding: .5rem;
+					}
+				}
 			}
 		}
 	}

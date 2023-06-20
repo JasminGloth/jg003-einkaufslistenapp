@@ -1,18 +1,18 @@
 import products from "../data/products.json";
 import departments from "../data/departments.json";
-import buyItems from "../data/buyItems.json";
 
 export const PagePreisvergleich = () => {
   return /*html*/ `
-<div class="page pageList">
+<div class="page pagePreisvergleich">
 		<h2>Es gibt ${products.length} Waren in ${departments.length} Abteilungen </h2>
 
+    <table>
   	${products
       .map((product) => {
-       return `<div>${product.name}</div>`;
+        return `<tr><td>${product.name}</td></tr>`;
       })
       .join("")}  
-
+    </table>
 </div>
 `;
 };
