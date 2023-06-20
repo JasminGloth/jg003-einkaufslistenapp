@@ -7,6 +7,12 @@ export const PagePreisvergleich = () => {
 		<h2>Es gibt ${products.length} Waren in ${departments.length} Abteilungen </h2>
 
     <table>
+      <tr>
+        <th>Produkt</th>
+        <th>Kaufland</th>
+        <th>Lidl</th>
+        <th>Aldi</th>
+    </tr>
   	${products
       .map((product) => {
         return `<tr>
