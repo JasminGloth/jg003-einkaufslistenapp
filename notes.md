@@ -78,3 +78,9 @@ Aldi
       })
       .join("")}
 	</ul>
+
+
+  Neue todos:
+  - Euro anzeigen lassen
+  - Page Einkaufsliste erstellen
+  -buyitems mit formular einstellen

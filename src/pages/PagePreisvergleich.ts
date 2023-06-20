@@ -1,9 +1,9 @@
 import {products} from "../model";
 import {departments} from "../model";
-import { getDepartmentProducts } from "../model";
+import { getProductDepartments } from "../model";
 
-const departmentProducts=getDepartmentProducts();
-console.log (departmentProducts);
+const productDepartments = getProductDepartments();
+console.log (productDepartments);
 
 export const PagePreisvergleich = () => {
   return /*html*/ `
@@ -17,13 +17,13 @@ export const PagePreisvergleich = () => {
         <th>Lidl</th>
         <th>Aldi</th>
     </tr>
-  	${departmentProducts
-      .map((departmentProduct) => {
+  	${productDepartments
+      .map((productDepartment) => {
         return `
         <tr>
-          <td class="department" colspan="4">${departmentProduct.name}</td>
+          <td class="department" colspan="4">${productDepartment.name}</td>
         </tr>
-        ${departmentProduct.products
+        ${productDepartment.products
           .map((product) => {
             return `
           
