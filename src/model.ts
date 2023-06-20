@@ -5,5 +5,10 @@ export const products = [..._products];
 export const departments = [..._departments];
 
 export const getDepartmentProducts=()=>{
-    return "test";
+    return departments.map(department => {
+        return {
+            name:department.name,
+            products:products.filter(product => product.departmentId === department.id)
+        }
+    })
 }
