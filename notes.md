@@ -38,10 +38,10 @@ Aussehen Beispiel Seite Preisvergleich:
                                       Kaufland            Lidl            Aldi
 
 Molkerei
-2 Käse                                 2.78 €             2.58 €          2.38 €
+Käse                                 2.78 €             2.58 €          2.38 €
 
 Wurstwaren
-1 Bacon                                1.19 €             1.29 €          1.29 €
+Bacon                                1.19 €             1.29 €          1.29 €
 
 
 Aussehen Beispiel Seite Einkaufsliste
