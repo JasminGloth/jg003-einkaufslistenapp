@@ -1,16 +1,53 @@
 # Schritte
 
-x vite vanilla menü code holen
-x vite einrichten
-x git einrichten
-x erste Seite umbenennen in Liste
-x json Datei erstellen "items.json" in source (src/data)
-x items.json mit Items füllen Title , amount
-x items darstellen auf der Liste-Seite
-- map in eine Zeile ändern
-- Department component erstellen
-- auf Vercel publizieren
-- auf Handy anschauen
+- products
+    -id
+    -name
+    -priceKaufland
+    -priceLidl
+    -priceAldi
+    -departmentId
+-buyItems
+    -id
+    -productId
+    -amount
+- departments
+    -id
+    -name
+
+
+ToDo:
+- 3 json-Datein erstellen
+- Preisvergleichs-Seite und Einkaufsliste-Seite erstellen
+
+
+
+
+Aussehen Beispiel Seite Preisvergleich:
+
+                                      Kaufland            Lidl            Aldi
+
+Molkerei
+2 Käse                                 2.78 €             2.58 €          2.38 €
+
+Wurstwaren
+1 Bacon                                1.19 €             1.29 €          1.29 €
+
+
+Aussehen Beispiel Seite Kaufliste
+
+Aldi
+
+  Molkerei
+  2 Käse
+
+Kaufland
+
+  Wurstwaren
+  1 Bacon
+
+
+
 
 
 
