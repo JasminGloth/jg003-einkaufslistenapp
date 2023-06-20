@@ -7,6 +7,16 @@
     -priceLidl
     -priceAldi
     -departmentId
+
+{
+        "id":,
+        "name": "",
+        "priceKaufland":,
+        "priceLidl":,
+        "priceAldi":,
+        "departmentId":,
+    }
+
 -buyItems
     -id
     -productId
