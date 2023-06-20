@@ -1,13 +1,4 @@
-interface IDepartment {
-  title: string;
-}
-interface IItem {
-  title: string;
-  amount: number;
-  department: string;
-  price_kaufland: number;
-  price_lidl: number;
-}
+
 
 export const Department = (items: IItem[], department: IDepartment) => {
   return /*html*/ `

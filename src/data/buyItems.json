@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "productId": 5,
+    "amount": 3
+  },
+  {
+    "id": 2,
+    "productId": 10,
+    "amount": 1
+  },
+  {
+    "id": 3,
+    "productId": 9,
+    "amount": 5
+  },
+  {
+    "id": 4,
+    "productId": 30,
+    "amount": 2
+  }
+]

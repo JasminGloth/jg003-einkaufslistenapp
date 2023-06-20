@@ -44,14 +44,14 @@ Wurstwaren
 1 Bacon                                1.19 €             1.29 €          1.29 €
 
 
-Aussehen Beispiel Seite Kaufliste
+Aussehen Beispiel Seite Einkaufsliste
 
 Aldi
 
   Molkerei
   2 Käse
 
-Kaufland
+  Kaufland
 
   Wurstwaren
   1 Bacon

@@ -1,11 +1,58 @@
 [
-    {
-        "title": "Molkerei"
-    },
-    {
-        "title": "Wurst"
-    },
-    {
-        "title": "Backwaren"
-    }
+  {
+    "id": 1,
+    "name": "Molkerei"
+  },
+  {
+    "id": 2,
+    "name": "Wurstwaren"
+  },
+  {
+    "id": 3,
+    "name": "Backwaren"
+  },
+  {
+    "id": 4,
+    "name": "Tiefkühl"
+  },
+  {
+    "id": 5,
+    "name": "Kaffe und Tee"
+  },
+  {
+    "id": 6,
+    "name": "Backzutaten"
+  },
+  {
+    "id": 7,
+    "name": "Obst, Gemüse, Kräuter"
+  },
+  {
+    "id": 8,
+    "name": "Fertigprodukte Kühl"
+  },
+  {
+    "id": 9,
+    "name": "Beilagen"
+  },
+  {
+    "id": 10,
+    "name": "Frühstücksflocken und Müsli"
+  },
+  {
+    "id": 11,
+    "name": "Fleisch frisch"
+  },
+  {
+    "id": 12,
+    "name": "Süßigkeiten und Knabberkram"
+  },
+  {
+    "id": 13,
+    "name": "Getränke"
+  },
+  {
+    "id": 14,
+    "name": "Konserven"
+  }
 ]
